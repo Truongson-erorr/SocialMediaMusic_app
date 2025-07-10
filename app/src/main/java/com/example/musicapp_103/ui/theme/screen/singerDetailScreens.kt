@@ -56,7 +56,6 @@ fun SingerDetailScreen(
     ) {
         Spacer(modifier = Modifier.height(30.dp))
 
-        // Nút quay lại
         Row(
             verticalAlignment = Alignment.CenterVertically,
             modifier = Modifier.fillMaxWidth()
@@ -79,7 +78,6 @@ fun SingerDetailScreen(
 
         Spacer(modifier = Modifier.height(16.dp))
 
-        // Ảnh ca sĩ
         Box(
             modifier = Modifier
                 .fillMaxWidth()
@@ -97,7 +95,6 @@ fun SingerDetailScreen(
             )
         }
 
-        // Tên ca sĩ
         Text(
             text = singerName,
             color = Color.White,
@@ -115,7 +112,6 @@ fun SingerDetailScreen(
 
         Spacer(modifier = Modifier.height(12.dp))
 
-        // Danh sách bài hát
         LazyColumn(
             verticalArrangement = Arrangement.spacedBy(8.dp),
             modifier = Modifier

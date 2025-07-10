@@ -32,7 +32,7 @@ fun SingerListScreen(navController: NavController, viewModel: SingersViewModel =
             .fillMaxSize()
             .background(
                 Brush.verticalGradient(
-                    colors = listOf(Color.White, Color(0xFFE0E0E0)) // Từ trắng đến xám nhạt
+                    colors = listOf(Color.White, Color(0xFFE0E0E0))
                 )
             )
             .padding(24.dp)

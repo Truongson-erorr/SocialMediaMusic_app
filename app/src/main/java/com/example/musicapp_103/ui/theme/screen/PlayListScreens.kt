@@ -34,9 +34,8 @@ import com.example.musicapp_103.viewmodel.PlaylistsViewmodel
 @Composable
 fun PlaylistScreens(navController: NavController) {
     val context = LocalContext.current
-    // Khởi tạo PlaylistViewModel
+
     val playlistViewModel: PlaylistsViewmodel = viewModel()
-    // Theo dõi danh sách playlists từ ViewModel
     val playlists by playlistViewModel.playlists.observeAsState(emptyList())
 
     Box(
@@ -74,14 +73,13 @@ fun PlaylistScreens(navController: NavController) {
                     fontSize = 18.sp,
                     fontWeight = FontWeight.SemiBold
                 )
-                // Đẩy nút Play sang bên phải
+
                 Spacer(modifier = Modifier.weight(1f))
                 IconButton(
                     onClick = {
-                        // Logic khi nhấn nút Play (ví dụ: phát toàn bộ playlist)
                     },
                     modifier = Modifier
-                        .size(50.dp) // Đặt kích thước cho IconButton
+                        .size(50.dp)
                         .background(
                             color = Color(0xFF4CAF50),
                             shape = RoundedCornerShape(50)
@@ -92,13 +90,12 @@ fun PlaylistScreens(navController: NavController) {
                         contentDescription = "Play Playlist",
                         tint = Color.White,
                         modifier = Modifier
-                            .size(56.dp) // Kích thước biểu tượng nhỏ hơn để cân đối
+                            .size(56.dp)
                             .padding(4.dp)
                     )
                 }
             }
             Spacer(modifier = Modifier.height(20.dp))
-            // Kiểm tra nếu danh sách rỗng
             if (playlists.isEmpty()) {
                 Text(
                     text = "Chưa có bài hát nào trong playlist",
@@ -107,7 +104,6 @@ fun PlaylistScreens(navController: NavController) {
                     modifier = Modifier.align(Alignment.CenterHorizontally)
                 )
             } else {
-                // Hiển thị danh sách playlist
                 LazyColumn(
                     modifier = Modifier.fillMaxSize(),
                     verticalArrangement = Arrangement.spacedBy(12.dp)
@@ -139,7 +135,7 @@ fun PlaylistItem(playlist: Playlist, onClick: () -> Unit) {
                 .padding(12.dp),
             verticalAlignment = Alignment.CenterVertically
         ) {
-            // Hình ảnh bài hát
+
             AsyncImage(
                 model = playlist.image_url,
                 contentDescription = "Playlist Image",
@@ -152,7 +148,6 @@ fun PlaylistItem(playlist: Playlist, onClick: () -> Unit) {
 
             Spacer(modifier = Modifier.width(12.dp))
 
-            // Thông tin bài hát
             Column {
                 Text(
                     text = playlist.title,

@@ -77,7 +77,7 @@ fun AdminHomeButton(text: String, onClick: () -> Unit) {
             .height(56.dp),
         shape = RoundedCornerShape(12.dp),
         colors = ButtonDefaults.buttonColors(
-            containerColor = Color.Black, // xanh dương đậm
+            containerColor = Color.Black,
             contentColor = Color.White
         )
     ) {

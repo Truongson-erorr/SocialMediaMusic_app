@@ -50,10 +50,10 @@ fun LibraryScreen(navController: NavController) {
                 fontWeight = FontWeight.Bold
             )
             Row {
-                IconButton(onClick = { /* TODO: Navigate to settings */ }) {
+                IconButton(onClick = {  }) {
                     Icon(Icons.Filled.Settings, contentDescription = "Settings", tint = Color.White)
                 }
-                IconButton(onClick = { /* TODO: Navigate to favorites */ }) {
+                IconButton(onClick = {  }) {
                     Icon(Icons.Filled.Favorite, contentDescription = "Favorites", tint = Color.Red)
                 }
             }

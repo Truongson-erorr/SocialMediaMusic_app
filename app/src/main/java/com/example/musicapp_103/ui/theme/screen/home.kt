@@ -58,13 +58,13 @@ fun Ho_me(navController: NavController) {
                 .background(
                     brush = Brush.horizontalGradient(
                         listOf(
-                            Color(0xFF1A0033), // tím đậm gần như đen
-                            Color(0xFF2E1A47)  // tím trung bình
+                            Color(0xFF1A0033),
+                            Color(0xFF2E1A47)
                         )
                     ),
                     shape = RoundedCornerShape(topStart = 25.dp, topEnd = 25.dp)
                 )
-                .clip(RoundedCornerShape(topStart = 20.dp, topEnd = 20.dp)), // Cắt phần ngoài cho bo tròn
+                .clip(RoundedCornerShape(topStart = 20.dp, topEnd = 20.dp)),
             containerColor = Color.Transparent
         ) {
             items.forEachIndexed { index, item ->

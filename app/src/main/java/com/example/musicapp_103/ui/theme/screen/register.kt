@@ -108,10 +108,9 @@ fun RegisterScreen(navController: NavController) {
                             if (task.isSuccessful) {
                                 val user = auth.currentUser
                                 if (user != null) {
-                                    // Lưu dữ liệu vào Firestore collection "authors"
                                     val userData = hashMapOf(
                                         "email" to email,
-                                        "role" to "user", // Mặc định là user, có thể thay đổi sau
+                                        "role" to "user",
                                         "createdAt" to System.currentTimeMillis()
                                     )
                                     firestore.collection("Author")

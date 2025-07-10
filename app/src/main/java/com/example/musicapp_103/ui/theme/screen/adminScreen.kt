@@ -13,11 +13,10 @@ import androidx.navigation.NavController
 fun AdminScreen(navController: NavController) {
     Column(modifier = Modifier.padding(16.dp)) {
 
-        // Ví dụ chức năng quản lý
-        Button(onClick = { /* Xử lý logic quản lý người dùng */ }) {
+        Button(onClick = {  }) {
             Text(text = "Manage Users")
         }
-        Button(onClick = { /* Xử lý logic chỉnh sửa dữ liệu */ }) {
+        Button(onClick = {  }) {
             Text(text = "Edit Data")
         }
         Button(onClick = { navController.navigate("logout") }) {

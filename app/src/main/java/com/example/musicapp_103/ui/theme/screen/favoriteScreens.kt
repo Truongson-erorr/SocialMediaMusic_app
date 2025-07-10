@@ -49,7 +49,7 @@ fun LikedTracksScreen(navController: NavController, favViewModel: FavViewModel =
             verticalAlignment = Alignment.CenterVertically
         ) {
             IconButton(
-                onClick = { navController.popBackStack() } // quay lại màn hình trước
+                onClick = { navController.popBackStack() }
             ) {
                 Icon(
                     imageVector = Icons.Default.ArrowBackIosNew,
@@ -66,7 +66,6 @@ fun LikedTracksScreen(navController: NavController, favViewModel: FavViewModel =
             )
         }
         Spacer(modifier = Modifier.height(16.dp))
-        // Kiểm tra xem danh sách bài hát yêu thích có dữ liệu không
         if (favoriteSongs.isEmpty()) {
             Text(
                 text = "Chưa có bài hát yêu thích",
@@ -74,14 +73,13 @@ fun LikedTracksScreen(navController: NavController, favViewModel: FavViewModel =
                 fontSize = 18.sp
             )
         } else {
-            // Hiển thị danh sách bài hát yêu thích
             LazyColumn {
                 itemsIndexed(favoriteSongs) { index, song ->
                     Card(
                         modifier = Modifier
                             .fillMaxWidth()
                             .padding(vertical = 6.dp),
-                        shape = RoundedCornerShape(16.dp), // 👈 Bo tròn góc
+                        shape = RoundedCornerShape(16.dp),
                         colors = CardDefaults.cardColors(
                             containerColor = Color(0xFF5E2B97).copy(alpha = 0.9f)
                         ),

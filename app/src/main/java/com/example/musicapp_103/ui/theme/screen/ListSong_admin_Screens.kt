@@ -165,14 +165,14 @@ fun AdminSongRow(song: Song, index: Int, navController: NavController) {
                     text = { Text("Sửa bài hát", color = Color.White) },
                     onClick = {
                         expanded = false
-                        // TODO: Xử lý sửa
+
                     }
                 )
                 DropdownMenuItem(
                     text = { Text("Xóa bài hát", color = Color.White) },
                     onClick = {
                         expanded = false
-                        // TODO: Xử lý xóa
+
                     }
                 )
             }

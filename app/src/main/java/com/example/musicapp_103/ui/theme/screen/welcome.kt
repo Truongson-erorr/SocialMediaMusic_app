@@ -59,7 +59,7 @@ fun Welcome(navController: NavController) {
             Row(verticalAlignment = Alignment.CenterVertically) {
                 Text(
                     text = "MusicSon",
-                    fontSize = 36.sp, // 👈 nhỏ lại
+                    fontSize = 36.sp,
                     fontWeight = FontWeight.Bold,
                     style = androidx.compose.ui.text.TextStyle(
                         brush = Brush.linearGradient(
@@ -75,7 +75,7 @@ fun Welcome(navController: NavController) {
                     painter = rememberAsyncImagePainter("https://res.cloudinary.com/dq64aidpx/image/upload/v1740565718/swea7tppxe4xzs28ehxq.png"),
                     contentDescription = "Music Icon",
                     modifier = Modifier
-                        .size(80.dp) // 👈 nhỏ lại
+                        .size(80.dp)
                         .padding(start = 8.dp)
                 )
             }
@@ -87,7 +87,7 @@ fun Welcome(navController: NavController) {
                 color = Color.White
             )
 
-            Spacer(modifier = Modifier.height(290.dp)) // 👈 nhỏ hơn 250
+            Spacer(modifier = Modifier.height(290.dp))
 
             Button(
                 onClick = { navController.navigate("LoginScreen") },
@@ -105,7 +105,7 @@ fun Welcome(navController: NavController) {
             Spacer(modifier = Modifier.height(8.dp))
 
             Button(
-                onClick = { /* TODO: Google SignIn */ },
+                onClick = {  },
                 modifier = Modifier
                     .fillMaxWidth()
                     .height(48.dp),
@@ -125,7 +125,7 @@ fun Welcome(navController: NavController) {
                         painter = painter,
                         contentDescription = "Google Logo",
                         modifier = Modifier
-                            .size(32.dp) // 👈 nhỏ lại
+                            .size(32.dp)
                             .padding(end = 8.dp)
                     )
                     Text(

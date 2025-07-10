@@ -229,7 +229,7 @@ fun Detail_More(navController: NavController, moreId: String, moreViewModel: Mor
                         }
                     }
                     Spacer(modifier = Modifier.width(16.dp))
-                    IconButton(onClick = { /* TODO: Xử lý Next */ }) {
+                    IconButton(onClick = { }) {
                         Icon(
                             imageVector = Icons.Default.SkipNext,
                             contentDescription = "Next",
@@ -262,7 +262,6 @@ fun Detail_More(navController: NavController, moreId: String, moreViewModel: Mor
                     }
 
                     IconButton(onClick = {
-                        // TODO: Handle download
                     }) {
                         Icon(
                             imageVector = Icons.Filled.FileDownload,
@@ -273,7 +272,7 @@ fun Detail_More(navController: NavController, moreId: String, moreViewModel: Mor
                     }
 
                     IconButton(onClick = {
-                        // TODO: Handle add to album
+
                     }) {
                         Icon(
                             imageVector = Icons.Filled.LibraryAdd,

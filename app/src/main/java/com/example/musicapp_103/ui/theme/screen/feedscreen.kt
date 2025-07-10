@@ -127,7 +127,6 @@ fun SongItem(song: Song, index: Int, onClick: () -> Unit) {
                 )
             }
 
-            // IconButton mở menu
             Box {
                 IconButton(onClick = { expanded = true }) {
                     Icon(
@@ -140,7 +139,7 @@ fun SongItem(song: Song, index: Int, onClick: () -> Unit) {
                     expanded = expanded,
                     onDismissRequest = { expanded = false },
                     modifier = Modifier
-                        .background(Color(0xFF2C2C2C)) // Nền tối của menu
+                        .background(Color(0xFF2C2C2C))
                 ) {
                     DropdownMenuItem(
                         text = { Text("Yêu thích", color = Color.White) },
