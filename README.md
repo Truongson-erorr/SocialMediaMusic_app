@@ -46,8 +46,5 @@
 
 ## 📸 Screenshots
 
-![Home Screen](![0d1fe0b30a319e56dce058a2b30f37d7_1503588020](https://github.com/user-attachments/assets/b9f0fd47-1208-444c-bd1e-b33470958684)
-)  
-![Now Playing](path/to/now_playing.png)
 
 
