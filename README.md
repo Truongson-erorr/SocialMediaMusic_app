@@ -1,51 +1,51 @@
 # 🎵 MuseBeat
 
-**MuseBeat** là một ứng dụng nghe nhạc hiện đại được phát triển bằng **Kotlin** và **Jetpack Compose**, mang đến trải nghiệm âm nhạc mượt mà, cá nhân hóa và đa nền tảng cho người dùng. Ứng dụng tích hợp các tính năng mạnh mẽ từ **Firebase** giúp quản lý nội dung, người dùng và dữ liệu hiệu quả.
+**MuseBeat** is a modern music streaming application developed with **Kotlin** and **Jetpack Compose**, offering users a smooth, personalized, and cross-platform music experience. The app integrates powerful **Firebase** features to efficiently manage content, users, and data.
 
 ---
 
-## 🚀 Tính Năng Nổi Bật
+## 🚀 Key Features
 
-- 🔐 **Đăng nhập & Đăng ký**  
-  Hỗ trợ đăng nhập/đăng ký với xác thực Firebase, đảm bảo an toàn và dễ sử dụng.
+- 🔐 **Authentication**  
+  Sign up and sign in with Firebase Authentication for secure and easy access.
 
-- 📻 **Giao Diện Danh Sách Nhạc**  
-  Khám phá danh sách bài hát theo từng thể loại, ca sĩ hoặc bảng xếp hạng tuần.
+- 📻 **Music Library Interface**  
+  Browse songs by genres, artists, or weekly charts.
 
-- 🎧 **Trình Phát Nhạc Hiện Đại**  
-  - Phát, tạm dừng, tua tiến/lùi bài hát  
-  - Hỗ trợ chế độ nền  
-  - Hiển thị thông tin bài hát và hình ảnh  
+- 🎧 **Modern Music Player**  
+  - Play, pause, skip forward/backward  
+  - Background playback support  
+  - Display song details and album artwork  
 
-- ❤️ **Danh Sách Yêu Thích & Danh Sách Phát**  
-  Người dùng có thể đánh dấu bài hát yêu thích, tạo danh sách phát cá nhân và xem nhanh mọi lúc.
+- ❤️ **Favorites & Playlists**  
+  Users can favorite songs, create personal playlists, and access them anytime.
 
-- ⬇️ **Tải Nhạc Ngoại Tuyến**  
-  Cho phép tải nhạc về thiết bị để nghe không cần kết nối internet.
+- ⬇️ **Offline Download**  
+  Download songs to the device for offline listening.
 
-- 🧑‍💼 **Trang Quản Trị (Admin)**  
-  - Quản lý bài hát (thêm/sửa/xóa)  
-  - Quản lý người dùng  
-  - Quản lý ca sĩ và thông tin liên quan  
-
----
-
-## 💡 Công Nghệ Sử Dụng
-
-- **Kotlin** — Ngôn ngữ chính cho Android development  
-- **Jetpack Compose** — UI hiện đại, khai báo  
-- **Firebase Auth** — Xác thực người dùng  
-- **Firebase Firestore** — Lưu trữ dữ liệu thời gian thực  
-- **Firebase Storage** — Lưu trữ tệp nhạc và hình ảnh  
-- **ExoPlayer** — Trình phát nhạc hiệu suất cao  
-- **Coil** — Tải ảnh hiệu quả  
-- **Hilt/Dagger** — Dependency Injection  
-- **Navigation Compose** — Điều hướng trong app  
+- 🧑‍💼 **Admin Dashboard**  
+  - Manage songs (add/edit/delete)  
+  - Manage users  
+  - Manage artists and related information  
 
 ---
 
-## 🎯 Đối Tượng Sử Dụng
+## 💡 Technologies Used
 
-- Người dùng yêu thích âm nhạc muốn nghe và quản lý playlist cá nhân  
-- Các bạn trẻ muốn trải nghiệm ứng dụng nghe nhạc nhẹ, đơn giản nhưng nhiều tính năng  
-- Quản trị viên cần nền tảng để quản lý bài hát, nghệ sĩ và người dùng
+- **Kotlin** — Main language for Android development  
+- **Jetpack Compose** — Modern declarative UI toolkit  
+- **Firebase Auth** — User authentication  
+- **Firebase Firestore** — Real-time cloud database  
+- **Firebase Storage** — File and image storage  
+- **ExoPlayer** — High-performance audio playback  
+- **Coil** — Efficient image loading  
+- **Hilt/Dagger** — Dependency injection  
+- **Navigation Compose** — In-app navigation  
+
+---
+
+## 🎯 Target Users
+
+- Music lovers who want to stream and manage their personal playlists  
+- Young users looking for a lightweight, feature-rich music app  
+- Admins who need a platform to manage songs, artists, and users
