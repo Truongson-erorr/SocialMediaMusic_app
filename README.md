@@ -40,12 +40,13 @@
 - **ExoPlayer** — High-performance audio playback  
 - **Coil** — Efficient image loading  
 - **Hilt/Dagger** — Dependency injection  
-- **Navigation Compose** — In-app navigation  
+- **Navigation Compose** — In-app navigation
 
 ---
 
-## 🎯 Target Users
+## 📸 Screenshots
 
-- Music lovers who want to stream and manage their personal playlists  
-- Young users looking for a lightweight, feature-rich music app  
-- Admins who need a platform to manage songs, artists, and users
+![Home Screen](path/to/home_screen.png)  
+![Now Playing](path/to/now_playing.png)
+
+
