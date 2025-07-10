@@ -1,6 +1,6 @@
-# 🎵 MuseBeat
+# 🎵 MusicSon
 
-**MuseBeat** is a modern music streaming application developed with **Kotlin** and **Jetpack Compose**, offering users a smooth, personalized, and cross-platform music experience. The app integrates powerful **Firebase** features to efficiently manage content, users, and data.
+**MusicSon** is a modern music streaming application developed with **Kotlin** and **Jetpack Compose**, offering users a smooth, personalized, and cross-platform music experience. The app integrates powerful **Firebase** features to efficiently manage content, users, and data.
 
 ---
 
