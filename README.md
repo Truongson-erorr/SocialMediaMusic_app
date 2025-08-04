@@ -79,4 +79,4 @@ Here are some screenshots of the **MusicSon** app:
 
 ## 📝 Notes
 
-> This project is a part of my mobile development portfolio. It demonstrates advanced Android practices including real-time data syncing, multimedia handling, and cloud integration. Feel free to explore the source code and reach out for collaboration or feedback. Thanks for reading
+> This project is a part of my mobile development portfolio. It demonstrates advanced Android practices including real-time data syncing, multimedia handling, and cloud integration. Feel free to explore the source code and reach out for collaboration or feedback. Thanks for reading!
