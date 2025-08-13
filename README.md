@@ -66,7 +66,6 @@ Here are some screenshots of the **MusicSon** app:
   </tr>
 </table>
 
-
 ---
 
 ## 🎯 Target Users
