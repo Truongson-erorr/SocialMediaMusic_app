@@ -1,49 +1,68 @@
 # 🎵 MusicSon
 
-**MusicSon** is a modern music streaming application built with **Kotlin** and **Jetpack Compose**, delivering a smooth, personalized, and cross-platform experience. It integrates robust **Firebase** features for real-time content management, authentication, and cloud storage.
+**MusicSon** is a modern Android music streaming application developed using **Kotlin** and **Jetpack Compose**, designed to deliver a smooth, immersive, and personalized music listening experience.
 
----
+In the era of digital entertainment and on-demand content, MusicSon provides users with a centralized platform to **discover, stream, and manage music** efficiently. The application allows users to explore songs by artists, genres, and charts while enjoying high-quality audio playback with a clean and responsive user interface.
 
-## 🚀 Key Features
+Beyond basic music playback, MusicSon supports **background playing**, **offline downloads**, and **personalized playlists**, enabling users to enjoy their favorite tracks anytime and anywhere. User data and music content are synchronized in real time using **Firebase**, ensuring a seamless and secure experience across sessions.
 
-- 🔐 **Authentication**  
-  Secure sign-up and sign-in using Firebase Authentication.
+A key highlight of the application is the **Admin management system**, which allows administrators to manage songs, artists, and users dynamically without updating the app. This makes MusicSon scalable and suitable for real-world music streaming scenarios.
 
-- 📻 **Music Library Interface**  
-  Explore songs by genres, artists, or weekly charts.
+With a **modern UI built entirely with Jetpack Compose**, efficient media playback using **ExoPlayer**, and a well-structured **MVVM architecture**, MusicSon demonstrates best practices in Android development and serves as a strong portfolio project for mobile developers.
 
-- 🎧 **Modern Music Player**  
-  - Play, pause, skip forward/backward  
-  - Background playback support  
-  - Display song metadata and album artwork
+# 🎥 Demo Video
+*(Add Google Drive / YouTube demo link here)*
 
-- ❤️ **Favorites & Playlists**  
-  Create and manage favorite tracks and personal playlists.
+# 🧩 Core Features
 
-- ⬇️ **Offline Download**  
-  Download songs for offline listening anytime, anywhere.
+### 🔐 User Authentication
+- Sign up and sign in using **Firebase Authentication**
+- Secure access to personalized music content
 
-- 🧑‍💼 **Admin Dashboard**  
-  - Add, edit, and delete songs  
-  - Manage users and permissions  
-  - Manage artists and their information
+### 🎶 Music Library
+- Browse songs by **genre**, **artist**, and **charts**
+- View song details, album artwork, and artist information
 
----
+### 🎧 Music Player
+- Play, pause, next, and previous controls  
+- Background playback support  
+- Display song metadata and album cover  
+- Smooth audio streaming using **ExoPlayer**
 
-## 💡 Technologies Used
+### ❤️ Favorites & Playlists
+- Mark songs as favorites  
+- Create and manage personal playlists  
+- Quick access to saved music
 
-- **Kotlin** — Main language for Android development  
-- **Jetpack Compose** — Modern declarative UI toolkit  
-- **Firebase Auth** — User authentication  
-- **Firebase Firestore** — Real-time NoSQL database  
-- **Firebase Storage** — Cloud-based file & image storage  
-- **ExoPlayer** — High-performance music playback  
-- **Coil** — Efficient image loading for Compose  
-- **Hilt/Dagger** — Dependency injection  
-- **Navigation Compose** — In-app navigation system  
-- **Cloudinary** — Cloud image hosting and delivery
+### ⬇️ Offline Download
+- Download songs for offline listening  
+- Enjoy music without an internet connection
 
----
+### 🧑‍💼 Admin Dashboard
+- Add, edit, and delete songs  
+- Manage artists and music metadata  
+- Manage users and access permissions  
+
+### 🔔 Real-time Data Sync
+- Sync music content and user data in real time  
+- Powered by **Firebase Firestore**
+
+# 🧰 Technologies Used
+
+| Technology | Description | Purpose in Project |
+|-----------|------------|-------------------|
+| **Kotlin** | Official Android programming language with concise syntax and strong safety features. | Core language for implementing application logic. |
+| **Jetpack Compose** | Modern declarative UI toolkit for Android. | Builds all application screens and UI components. |
+| **MVVM Architecture** | Model-View-ViewModel architectural pattern. | Improves scalability, maintainability, and separation of concerns. |
+| **Firebase Authentication** | Secure authentication service. | Handles user sign-up and sign-in. |
+| **Firebase Firestore** | NoSQL cloud database with real-time updates. | Stores users, songs, playlists, and app data. |
+| **Firebase Storage** | Cloud-based file storage. | Stores music files and images securely. |
+| **ExoPlayer** | High-performance media playback library. | Handles audio streaming and background playback. |
+| **Hilt / Dagger** | Dependency injection framework. | Manages dependencies efficiently. |
+| **Navigation Compose** | Navigation framework for Compose. | Handles in-app screen navigation. |
+| **Coil** | Image loading library optimized for Compose. | Loads album covers and artist images. |
+| **Cloudinary** | Cloud media management platform. | Stores and delivers images efficiently. |
+| **Material 3** | Google’s modern design system. | Ensures a clean and consistent UI experience. |
 
 ## 📸 Screenshots
 
@@ -66,16 +85,59 @@ Here are some screenshots of the **MusicSon** app:
   </tr>
 </table>
 
----
+## 📂 Project Structure
 
-## 🎯 Target Users
+```text
+.
+├── admin/
+│   └── screens/
+├── data/
+│   └── model/
+├── navigation/
+├── ui/
+│   └── theme/
+│   └── screens/
+├── viewmodel/
+└── MainActivity.kt
+```
 
-- 🎵 Music lovers who want to enjoy and manage their playlists  
-- 👩‍💻 Young users seeking a lightweight yet feature-rich music app  
-- 👨‍💼 Admins looking for a backend-integrated platform to manage content  
+# ▶️ How to Run the Project
 
----
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Truongson-erorr/SocialMediaMusic_app.git
+   ```
+2. Open the project in **Android Studio**
 
-## 📝 Notes
+3. Add your Firebase configuration:
+   - Download `google-services.json` from Firebase Console
+   - Place it inside the `app/` directory
 
-> This project is a part of my mobile development portfolio. It demonstrates advanced Android practices including real-time data syncing, multimedia handling, and cloud integration. Feel free to explore the source code and reach out for collaboration or feedback. Thanks for reading!
+4. Enable required Firebase services:
+   - Authentication (Email/Password)
+   - Firestore Database
+   - Firebase Storage
+
+5. Sync Gradle dependencies:
+   - Click **Sync Now** when prompted by Android Studio
+
+6. Run the application:
+   - Choose an emulator or connect a real Android device
+   - Click **Run ▶️** in Android Studio
+
+# 🚀 Future Improvements
+
+- Implement **AI-powered music recommendation system** based on listening history
+- Add **real-time lyrics synchronization** with audio playback
+- Introduce **Dark Mode** and advanced theme customization
+- Improve offline mode with smarter caching and background downloads
+- Add **audio equalizer** and sound enhancement options
+- Enhance search with filters by artist, album, and duration
+- Implement **user listening statistics and analytics**
+- Add **role-based access control** for admin features
+- Improve app performance for large datasets
+- Add **push notifications** for new releases and playlists
+- Implement **unit testing and UI testing**
+- Expand to **cross-platform support** (Web / iOS)
+- Enable cloud-based playlist sharing between users
+
