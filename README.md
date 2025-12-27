@@ -127,17 +127,54 @@ Here are some screenshots of the **MusicSon** app:
 
 # 🚀 Future Improvements
 
-- Implement **AI-powered music recommendation system** based on listening history
-- Add **real-time lyrics synchronization** with audio playback
-- Introduce **Dark Mode** and advanced theme customization
-- Improve offline mode with smarter caching and background downloads
-- Add **audio equalizer** and sound enhancement options
-- Enhance search with filters by artist, album, and duration
-- Implement **user listening statistics and analytics**
-- Add **role-based access control** for admin features
-- Improve app performance for large datasets
-- Add **push notifications** for new releases and playlists
-- Implement **unit testing and UI testing**
-- Expand to **cross-platform support** (Web / iOS)
-- Enable cloud-based playlist sharing between users
+### 🤖 AI & Personalization
+- AI-powered music recommendation based on user listening history
+- Smart playlist suggestions using behavior analysis
+- Personalized home screen content
+
+### 🎶 Music Experience Enhancements
+- Real-time lyrics synchronization with audio playback
+- Audio equalizer and sound enhancement options
+- Gapless playback and crossfade support
+
+### 🌙 UI / UX & Customization
+- Dark Mode support
+- Advanced theme and accent color customization
+- Improved animations and transitions
+
+### ⬇️ Offline & Performance Optimization
+- Smarter offline caching mechanism
+- Background downloads for playlists and albums
+- Performance optimization for large music libraries
+
+### 🔍 Search & Discovery
+- Advanced search with filters by artist, album, genre, and duration
+- Smart suggestions while searching
+- Recently played and trending sections
+
+### 📊 Analytics & User Insights
+- User listening statistics (daily / weekly / monthly)
+- Most played songs, artists, and genres
+- Listening history timeline
+
+### 🔔 Notifications & Engagement
+- Push notifications for new releases and playlists
+- Personalized notifications based on user interests
+- In-app announcements and updates
+
+### 🔐 Security & Access Control
+- Role-based access control for admin features
+- Improved authentication security
+- Activity logging for admin actions
+
+### 🧪 Testing & Code Quality
+- Unit testing for ViewModels and business logic
+- UI testing for critical user flows
+- Improve code coverage and stability
+
+### 🌐 Cross-Platform Expansion
+- Web version support
+- iOS support in future releases
+- Shared business logic using Kotlin Multiplatform
+
 
