@@ -11,7 +11,7 @@ A key highlight of the application is the **Admin management system**, which all
 With a **modern UI built entirely with Jetpack Compose**, efficient media playback using **ExoPlayer**, and a well-structured **MVVM architecture**, MusicSon demonstrates best practices in Android development and serves as a strong portfolio project for mobile developers.
 
 # 🎥 Demo Video
-*(Add Google Drive / YouTube demo link here)*
+[*(YouTube demo link here)*](https://youtu.be/0WD_ym0jQW0?si=L-QslkzP_40kywB5)
 
 # 🧩 Core Features
 
